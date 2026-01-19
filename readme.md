@@ -25,15 +25,15 @@ The system detects P300 event-related potentials and decodes characters using th
 
 ## 📁 Project Structure
 
+```text
 P300_BCI_Project/
-├── data/ # EEG data & test splits
-├── models/ # Trained CNN model (.keras)
+├── data/                       # EEG data & test splits
+├── models/                     # Trained CNN model (.keras)
 ├── notebooks/
-│ ├── 01_load_and_explore_data.ipynb
-│ ├── 02_preprocessing_and_training.ipynb
-│ └── 03_demo_p300_speller.ipynb
+│   ├── 01_load_and_explore_data.ipynb
+│   ├── 02_preprocessing_and_training.ipynb
+│   └── 03_demo_p300_speller.ipynb
 └── README.md
-
 
 ---
 
